@@ -7,12 +7,4 @@ object ServerApp extends App {
   server.init(null)
   server.start()
 
-
-//  akkaShipsServer.stop()
-//  akkaShipsServer.destroy()
-
-
-
-
-
 }
