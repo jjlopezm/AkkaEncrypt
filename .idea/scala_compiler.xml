@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="Common,Server,Client,AkkaEncrypt" />
+    <profile name="Maven 1" modules="Common,AkkaEncrypt,Server,Client,Parent" />
   </component>
 </project>
