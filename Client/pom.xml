@@ -7,7 +7,7 @@
 
     <parent>
         <groupId>com.juanjo.akka</groupId>
-        <artifactId>Parent</artifactId>
+        <artifactId>AkkaEncrypt</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -22,45 +22,36 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.googlecode.lanterna</groupId>
-            <artifactId>lanterna</artifactId>
-            <version>${lanterna.version}</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-cluster_${scala.binary.version}</artifactId>
             <version>${akka.version}</version>
         </dependency>
+
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-contrib_${scala.binary.version}</artifactId>
+            <artifactId>akka-remote_${scala.binary.version}</artifactId>
             <version>${akka.version}</version>
         </dependency>
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-slf4j_${scala.binary.version}</artifactId>
+            <artifactId>akka-contrib_2.10</artifactId>
             <version>${akka.version}</version>
         </dependency>
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-http-experimental_2.11</artifactId>
-            <version>2.4.2</version>
+            <artifactId>akka-testkit_2.10</artifactId>
+            <version>${akka.version}</version>
         </dependency>
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-stream-experimental_2.11</artifactId>
-            <version>2.0.3</version>
+            <artifactId>akka-slf4j_2.10</artifactId>
+            <version>${akka.version}</version>
         </dependency>
-
         <dependency>
-            <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-testkit_2.11</artifactId>
-            <version>2.3.11</version>
+            <groupId>commons-daemon</groupId>
+            <artifactId>commons-daemon</artifactId>
+            <version>1.0.15</version>
         </dependency>
-
-
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
