@@ -31,7 +31,6 @@
       <module name="AkkaEncrypt" target="1.5" />
       <module name="Client" target="1.5" />
       <module name="Common" target="1.5" />
-      <module name="Parent" target="1.5" />
       <module name="Server" target="1.5" />
     </bytecodeTargetLevel>
   </component>

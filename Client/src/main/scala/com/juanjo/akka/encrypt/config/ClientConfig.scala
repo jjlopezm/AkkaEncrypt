@@ -76,7 +76,6 @@ trait ClientConfig {
         }
       }
     }
-
     ConfigFactory.load(finalConfig)
   }
 
